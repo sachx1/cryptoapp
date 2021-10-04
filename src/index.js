@@ -11,9 +11,9 @@ import 'antd/dist/antd.css';
 
 ReactDOM.render(
     <Router>
-    <Provider store={store}>
-        <App/>
-    </Provider>
+        <Provider store={store}>
+            <App/>
+        </Provider>
     </Router>, 
     document.getElementById('root')
     );
